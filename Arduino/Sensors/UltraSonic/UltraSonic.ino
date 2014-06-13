@@ -31,7 +31,7 @@ void loop(){
     notApproachingsInARow++;
 
       if(notApproachingsInARow >=2){
-         Serial.println("Not appraoching docking station");
+         Serial.println("Not approaching docking station");
          approachingsInARow = 0;
       }else{
          Serial.println("Reading ... ");
